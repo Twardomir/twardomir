@@ -1,0 +1,40 @@
+#test{
+animation:rozmycie 2s infinite;
+}
+#trener{
+    width: 300px;
+}
+#trener:hover{
+
+}
+@keyframes rozmycie{
+    0%{
+        filter:blur(2px);
+}
+    50%{
+        transform: transtaleX (100px);
+        transform: transtaleY (100px);
+    }
+    100%{
+        filter:blur(10px);
+        scale:0.8;
+    
+        transform: translateX(100px);
+    }
+}
+
+@keyframes tecza{
+0%{
+    color:blue;
+}
+50%{
+    color: rgb(249, 225, 225);
+}
+
+100%{
+    color: red;
+}
+}
+.dzioch img{
+width:400px;
+}
